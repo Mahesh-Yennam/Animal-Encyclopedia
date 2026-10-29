@@ -1,0 +1,17 @@
+{
+  "name": "The Living World: Animal Encyclopedia",
+  "short_name": "Animals",
+  "description": "Interactive animal kingdom encyclopedia with biomes, species taxonomy, soundboard, and habitat comparisons.",
+  "start_url": "https://mahesh-yennam.github.io/Animal-Encyclopedia/",
+  "scope": "https://mahesh-yennam.github.io/Animal-Encyclopedia/",
+  "display": "standalone",
+  "background_color": "#06120e",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

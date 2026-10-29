@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFQ8M0VSFN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RFQ8M0VSFN');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Encyclopedia — Gamility Explorer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore Earth's biodiversity with the interactive Animal Encyclopedia. Detailed species taxonomy, comparative biological stats, synthesized wildlife calls, and habitat biome mapping.">
+  <meta name="keywords" content="animal encyclopedia, wildlife database, species taxonomy, animal speed, animal weight, IUCN red list, animal sounds, biology education">
+  <meta name="author" content="Gamility">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mahesh-yennam.github.io/Animal-Encyclopedia/">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mahesh-yennam.github.io/Animal-Encyclopedia/">
+  <meta property="og:title" content="The Living World: Animal Encyclopedia — Gamility Explorer">
+  <meta property="og:description" content="Explore Earth's biodiversity with the interactive Animal Encyclopedia. Detailed species taxonomy, comparative biological stats, synthesized wildlife calls, and habitat biome mapping.">
+  <meta property="og:image" content="https://mahesh-yennam.github.io/Animal-Encyclopedia/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="The Living World: Animal Encyclopedia — Gamility Explorer">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mahesh-yennam.github.io/Animal-Encyclopedia/">
+  <meta name="twitter:title" content="The Living World: Animal Encyclopedia — Gamility Explorer">
+  <meta name="twitter:description" content="Explore Earth's biodiversity with the interactive Animal Encyclopedia. Detailed species taxonomy, comparative biological stats, synthesized wildlife calls, and habitat biome mapping.">
+  <meta name="twitter:image" content="https://mahesh-yennam.github.io/Animal-Encyclopedia/preview.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#10b981">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "The Living World: Animal Encyclopedia",
+    "url": "https://mahesh-yennam.github.io/Animal-Encyclopedia/",
+    "description": "Explore Earth's biodiversity with the interactive Animal Encyclopedia. Detailed species taxonomy, comparative biological stats, and habitat biome mapping.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "All"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       TOP RETURN NAVIGATION RIBBON
+       ========================================================================= -->
+  <header class="app-top-nav">
+    <div class="nav-container">
+      <a href="https://mahesh-yennam.github.io/Gamility/" class="nav-brand" aria-label="Gamility Home">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+          </svg>
+        </div>
+        <span class="brand-text">Gami<span>lity</span> <small class="brand-sub">Explorer</small></span>
+      </a>
+
+      <div class="nav-center-badge">
+        <span class="badge-dot"></span>
+        <span class="badge-title">🦁 Animal Kingdom Encyclopedia</span>
+      </div>
+
+      <a href="https://mahesh-yennam.github.io/Gamility/explorer.html" class="nav-back-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span>Back to Explorer</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO BANNER
+       ========================================================================= -->
+  <section class="hero-banner">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="pill-icon">🌍</span> Earth's Biodiversity Interactive Archive
+      </div>
+      <h1 class="hero-title">
+        The Living World: <span class="gradient-text">Animal Encyclopedia</span>
+      </h1>
+      <p class="hero-desc">
+        Explore detailed biological taxonomy, comparative anatomical metrics, authentic synthesized vocalizations, and conservation statuses across 7 planetary biomes.
+      </p>
+
+      <!-- Quick Platform Counters -->
+      <div class="hero-stats-strip">
+        <div class="stat-bubble">
+          <span class="stat-num" id="statSpeciesCount">39</span>
+          <span class="stat-lbl">Species Curated</span>
+        </div>
+        <div class="stat-bubble">
+          <span class="stat-num">7</span>
+          <span class="stat-lbl">Wild Biomes</span>
+        </div>
+        <div class="stat-bubble">
+          <span class="stat-num">6</span>
+          <span class="stat-lbl">Taxonomic Classes</span>
+        </div>
+        <div class="stat-bubble">
+          <span class="stat-num">100%</span>
+          <span class="stat-lbl">Client-Side Audio</span>
+        </div>
+      </div>
+
+      <!-- App Mode Switcher -->
+      <nav class="mode-tabs-nav" aria-label="Encyclopedia Modes">
+        <button type="button" class="mode-tab-btn active" data-view="gallery">
+          <span class="tab-icon">🗂️</span> Species Catalog
+        </button>
+        <button type="button" class="mode-tab-btn" data-view="compare">
+          <span class="tab-icon">⚖️</span> Species Comparator <span class="compare-counter-badge" id="compareCountBadge">0</span>
+        </button>
+        <button type="button" class="mode-tab-btn" data-view="soundboard">
+          <span class="tab-icon">🔊</span> Bio-Acoustics Soundboard
+        </button>
+        <button type="button" class="mode-tab-btn" data-view="quiz">
+          <span class="tab-icon">🧠</span> Wildlife Quiz Master
+        </button>
+        <button type="button" class="mode-tab-btn random-btn" id="randomSpeciesBtn">
+          <span class="tab-icon">🎲</span> Mystery Discovery
+        </button>
+      </nav>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================= -->
+  <main class="container main-content-wrapper">
+
+    <!-- VIEW 1: SPECIES CATALOG / GALLERY -->
+    <section class="app-view active" id="view-gallery">
+      
+      <!-- Filter & Search Toolbar -->
+      <div class="filter-toolbar-card">
+        <div class="search-and-presets-row">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="search" 
+              id="speciesSearchInput" 
+              class="species-search-input" 
+              placeholder="Search by common name, scientific binomial, diet, or trait..."
+              aria-label="Search animal species"
+            >
+            <button type="button" class="search-clear-btn" id="clearSearchBtn" aria-label="Clear search">✕</button>
+          </div>
+
+          <!-- Unit System Toggle (Metric vs Imperial) -->
+          <div class="unit-toggle-box">
+            <span class="unit-toggle-label">Units:</span>
+            <div class="segmented-control" role="radiogroup" aria-label="Measurement Units">
+              <button type="button" class="seg-btn active" data-unit="metric" id="unitMetricBtn">Metric</button>
+              <button type="button" class="seg-btn" data-unit="imperial" id="unitImperialBtn">Imperial</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Biome Filter Chips -->
+        <div class="biome-chips-wrapper">
+          <span class="filter-section-title">Biome / Habitat:</span>
+          <div class="chips-scroll-container" id="biomeChipsGroup" role="tablist">
+            <button type="button" class="biome-chip active" data-biome="all">🌍 All Biomes</button>
+            <button type="button" class="biome-chip" data-biome="ocean">🌊 Ocean & Marine</button>
+            <button type="button" class="biome-chip" data-biome="rainforest">🌴 Tropical Rainforest</button>
+            <button type="button" class="biome-chip" data-biome="savannah">🌾 Savannah & Grassland</button>
+            <button type="button" class="biome-chip" data-biome="polar">❄️ Polar & Tundra</button>
+            <button type="button" class="biome-chip" data-biome="desert">🏜️ Desert & Arid</button>
+            <button type="button" class="biome-chip" data-biome="forest">🌲 Temperate Forest</button>
+            <button type="button" class="biome-chip" data-biome="mountain">🏔️ Mountain & Alpine</button>
+          </div>
+        </div>
+
+        <!-- Secondary Dropdown Filters -->
+        <div class="secondary-filters-row">
+          <!-- Class Filter -->
+          <div class="filter-field">
+            <label for="classFilterSelect">Taxonomic Class:</label>
+            <select id="classFilterSelect" class="filter-select">
+              <option value="all">All Classes</option>
+              <option value="Mammalia">Mammalia (Mammals)</option>
+              <option value="Aves">Aves (Birds)</option>
+              <option value="Reptilia">Reptilia (Reptiles)</option>
+              <option value="Amphibia">Amphibia (Amphibians)</option>
+              <option value="Actinopterygii">Actinopterygii (Ray-finned Fish)</option>
+              <option value="Chondrichthyes">Chondrichthyes (Cartilaginous Fish)</option>
+              <option value="Invertebrata">Invertebrata (Invertebrates)</option>
+            </select>
+          </div>
+
+          <!-- IUCN Status Filter -->
+          <div class="filter-field">
+            <label for="iucnFilterSelect">Conservation Status (IUCN):</label>
+            <select id="iucnFilterSelect" class="filter-select">
+              <option value="all">All Statuses</option>
+              <option value="LC">Least Concern (LC)</option>
+              <option value="NT">Near Threatened (NT)</option>
+              <option value="VU">Vulnerable (VU)</option>
+              <option value="EN">Endangered (EN)</option>
+              <option value="CR">Critically Endangered (CR)</option>
+            </select>
+          </div>
+
+          <!-- Diet Filter -->
+          <div class="filter-field">
+            <label for="dietFilterSelect">Diet Classification:</label>
+            <select id="dietFilterSelect" class="filter-select">
+              <option value="all">All Diets</option>
+              <option value="Carnivore">🥩 Carnivore</option>
+              <option value="Herbivore">🌿 Herbivore</option>
+              <option value="Omnivore">🫐 Omnivore</option>
+            </select>
+          </div>
+
+          <!-- Sort Sorter -->
+          <div class="filter-field">
+            <label for="sortFilterSelect">Sort By:</label>
+            <select id="sortFilterSelect" class="filter-select">
+              <option value="name-asc">Alphabetical (A → Z)</option>
+              <option value="name-desc">Alphabetical (Z → A)</option>
+              <option value="speed-desc">Top Speed (Fastest first)</option>
+              <option value="weight-desc">Adult Weight (Heaviest first)</option>
+              <option value="lifespan-desc">Lifespan (Longest first)</option>
+              <option value="threat-desc">Threat Level (Most endangered)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery Meta Info Bar -->
+      <div class="gallery-status-bar">
+        <div class="results-tally">
+          Showing <span id="displayedCount" class="highlight-count">39</span> of <span id="totalSpeciesCount">39</span> species
+        </div>
+        <button type="button" class="reset-filters-btn" id="resetFiltersBtn">Reset All Filters</button>
+      </div>
+
+      <!-- Species Cards Grid -->
+      <div class="species-grid" id="speciesGrid" role="region" aria-label="Animal Species Catalog">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- No Results Feedback State -->
+      <div class="no-results-state hidden" id="noResultsState">
+        <div class="no-results-icon">🐾</div>
+        <h3>No matching species found</h3>
+        <p>Try adjusting your search keywords, clear filters, or choose a different biome.</p>
+        <button type="button" class="btn btn-primary" id="resetFiltersAltBtn">Clear Filters</button>
+      </div>
+    </section>
+
+    <!-- VIEW 2: ANIMAL COMPARISON MATRIX -->
+    <section class="app-view hidden" id="view-compare">
+      <div class="view-header-block">
+        <div class="view-header-text">
+          <h2>⚖️ Biological Species Comparator</h2>
+          <p>Select up to 3 animals to analyze side-by-side across speed, weight, lifespan, and ecological traits.</p>
+        </div>
+        <button type="button" class="btn btn-outline btn-sm" id="clearAllCompareBtn">Clear Comparison</button>
+      </div>
+
+      <!-- Quick Species Picker Dropdowns for Comparator -->
+      <div class="comparator-pickers-strip">
+        <div class="picker-slot">
+          <label for="compareSlot1">Slot 1:</label>
+          <select id="compareSlot1" class="filter-select compare-slot-select"></select>
+        </div>
+        <div class="picker-slot">
+          <label for="compareSlot2">Slot 2:</label>
+          <select id="compareSlot2" class="filter-select compare-slot-select"></select>
+        </div>
+        <div class="picker-slot">
+          <label for="compareSlot3">Slot 3:</label>
+          <select id="compareSlot3" class="filter-select compare-slot-select"></select>
+        </div>
+      </div>
+
+      <!-- Dynamic Side-by-Side Comparison Container -->
+      <div class="comparison-display-area" id="comparisonDisplayArea">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 3: BIO-ACOUSTIC SOUNDBOARD -->
+    <section class="app-view hidden" id="view-soundboard">
+      <div class="view-header-block">
+        <div class="view-header-text">
+          <h2>🔊 Bio-Acoustic Wildlife Vocalizations</h2>
+          <p>Procedural wildlife call synthesis built with the Web Audio API. Zero audio files or external downloads required.</p>
+        </div>
+        <div class="audio-status-pill">
+          <span class="audio-wave-icon">〰️</span> Web Audio API Synthesizer
+        </div>
+      </div>
+
+      <div class="soundboard-grid" id="soundboardGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 4: WILDLIFE QUIZ MASTER -->
+    <section class="app-view hidden" id="view-quiz">
+      <div class="quiz-card" id="quizCard">
+        <div class="quiz-header">
+          <div class="quiz-progress-text">
+            Question <span id="quizCurrentQ">1</span> of <span id="quizTotalQ">10</span>
+          </div>
+          <div class="quiz-score-badge">
+            Score: <strong id="quizScoreNum">0</strong> / <span id="quizCurrentAttempted">0</span>
+          </div>
+        </div>
+
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quizProgressFill" style="width: 10%;"></div>
+        </div>
+
+        <div class="quiz-body">
+          <span class="quiz-category-tag" id="quizCategoryTag">Biome & Habitat</span>
+          <h3 class="quiz-question-title" id="quizQuestionText">Loading question...</h3>
+
+          <div class="quiz-options-list" id="quizOptionsList">
+            <!-- Dynamic multiple choice buttons -->
+          </div>
+
+          <div class="quiz-feedback-box hidden" id="quizFeedbackBox">
+            <div class="feedback-indicator" id="feedbackIndicator">✓ Correct!</div>
+            <p class="feedback-explanation" id="feedbackExplanation"></p>
+            <button type="button" class="btn btn-primary" id="quizNextBtn">Next Question →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz Completed State -->
+      <div class="quiz-finished-card hidden" id="quizFinishedCard">
+        <div class="trophy-badge">🏆</div>
+        <h2>Quiz Completed!</h2>
+        <p class="quiz-final-score">Your Score: <span id="finalScoreVal">8</span> / 10 (<span id="finalPercentVal">80%</span>)</p>
+        <p class="quiz-evaluation-text" id="finalEvalText">Outstanding! You have master-level zoology and biodiversity knowledge.</p>
+        <div class="quiz-actions-row">
+          <button type="button" class="btn btn-primary" id="quizRestartBtn">Take Another Quiz</button>
+          <button type="button" class="btn btn-secondary" id="quizReturnGalleryBtn">Return to Species Catalog</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       SPECIES DEEP-DIVE DOSSIER MODAL
+       ========================================================================= -->
+  <div class="modal-backdrop" id="speciesModalBackdrop" aria-hidden="true">
+    <div class="modal-dialog species-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalCommonName">
+      
+      <!-- Close Button -->
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">✕</button>
+
+      <div class="modal-scroll-body" id="modalContentBody">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       FLOATING COMPARISON DRAWER (Bottom Bar)
+       ========================================================================= -->
+  <aside class="compare-dock hidden" id="compareDock" aria-label="Species Comparison Dock">
+    <div class="container dock-inner">
+      <div class="dock-summary">
+        <span class="dock-icon">⚖️</span>
+        <span class="dock-text">Comparing <strong id="dockCount">0</strong> / 3 species</span>
+      </div>
+      <div class="dock-avatars" id="dockAvatars"></div>
+      <div class="dock-actions">
+        <button type="button" class="btn btn-primary btn-sm" id="dockLaunchCompareBtn">View Comparison →</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="dockClearBtn">Clear</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       TOAST NOTIFICATION CONTAINER
+       ========================================================================= -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="app-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-col">
+        <a href="https://mahesh-yennam.github.io/Gamility/" class="nav-brand">
+          <div class="brand-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+            </svg>
+          </div>
+          <span class="brand-text">Gami<span>lity</span> <small class="brand-sub">Explorer</small></span>
+        </a>
+        <p class="footer-tagline">
+          The Living World: Animal Encyclopedia — An educational discovery portal by Gamility. 100% Client-side and offline ready.
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="https://mahesh-yennam.github.io/Gamility/">Portal Home</a></li>
+          <li><a href="https://mahesh-yennam.github.io/Gamility/games.html">Online Games</a></li>
+          <li><a href="https://mahesh-yennam.github.io/Gamility/tools.html">Utility Tools</a></li>
+          <li><a href="https://mahesh-yennam.github.io/Gamility/explorer.html">Explorer Hub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Biomes</h4>
+        <ul>
+          <li><a href="#view-gallery" data-jump-biome="ocean">Ocean & Marine</a></li>
+          <li><a href="#view-gallery" data-jump-biome="rainforest">Tropical Rainforest</a></li>
+          <li><a href="#view-gallery" data-jump-biome="savannah">Savannah & Plains</a></li>
+          <li><a href="#view-gallery" data-jump-biome="polar">Polar & Tundra</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Gamility. All rights reserved. Zero external tracking or cookies.</p>
+        <div class="footer-bottom-links">
+          <a href="https://mahesh-yennam.github.io/Gamility/privacy.html">Privacy Policy</a>
+          <a href="https://mahesh-yennam.github.io/Gamility/terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
